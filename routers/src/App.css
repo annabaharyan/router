@@ -1,0 +1,79 @@
+.main-heading {
+  font-size: 40px;
+  text-align: center;
+  color: rgba(165, 42, 42, 0.758);
+}
+.home-nav nav,
+.navigate {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  background-color: rgba(176, 77, 77, 0.514);
+}
+.home-nav a {
+  text-decoration: none;
+  padding: 15px;
+  display: inline-flex;
+  align-items: center;
+
+  color: white;
+}
+.home-image {
+  width: 100%;
+  height: 74.5vh;
+  object-fit: cover;
+}
+
+.navigate li {
+  list-style: none;
+}
+.addForm,
+.add-head {
+  padding: 0 25px;
+}
+.add-head {
+  color: rgba(165, 42, 42, 0.758);
+  font-size: 20px;
+}
+.one-field-input {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.one-field-input input,
+.my-add-btn {
+  padding: 10px;
+
+  outline-color: rgba(165, 42, 42, 0.758);
+}
+.my-add-btn {
+  margin-top: 25px;
+  background-color: rgba(165, 42, 42, 0.758);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.book-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.book-list-wrapper img {
+  width: 200px;
+}
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.details > div {
+  width: 35%;
+}
+.details img {
+  width: 250px;
+  object-fit: contain;
+}
